@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "nix-like package management for Windows",
+    "homepage": "https://github.com/Cristiandis/NTIX",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Cristiandis/NTIX/releases/download/v1.0.0/ntix-1.0.0-win-x64.zip",
+            "hash": ""
+        }
+    },
+    "bin": "ntix.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Cristiandis/NTIX/releases/download/v$version/ntix-$version-win-x64.zip"
+            }
+        }
+    }
+}
