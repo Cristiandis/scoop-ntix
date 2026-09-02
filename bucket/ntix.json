@@ -1,12 +1,12 @@
 {
-    "version": "1.0.3",
-    "description": "nix-like package management for Windows",
+    "version": "2.0.0",
+    "description": "upgrade tools and keep tool configuration synchronized from a central source of truth",
     "homepage": "https://github.com/Cristiandis/NTIX",
-    "license": "GPL-3.0-only",
+    "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Cristiandis/NTIX/releases/download/v1.0.3/ntix-1.0.3-win-x64.zip",
-            "hash": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            "url": "https://github.com/Cristiandis/NTIX/releases/download/v2.0.0/ntix-rs-x86_64-pc-windows-gnu.zip",
+            "hash": "a19cdca08c22e888df0bafc0f44a8a7c4e295f918004e15d4e6857a6a7fc7cb6"
         }
     },
     "bin": "ntix.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Cristiandis/NTIX/releases/download/v$version/ntix-$version-win-x64.zip"
+                "url": "https://github.com/Cristiandis/NTIX/releases/download/v$version/ntix-rs-x86_64-pc-windows-gnu.zip"
             }
         }
     }
