@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "upgrade tools and keep tool configuration synchronized from a central source of truth",
     "homepage": "https://github.com/Cristiandis/NTIX",
     "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Cristiandis/NTIX/releases/download/v2.0.0/ntix-rs-x86_64-pc-windows-gnu.zip",
-            "hash": "a19cdca08c22e888df0bafc0f44a8a7c4e295f918004e15d4e6857a6a7fc7cb6"
+            "url": "https://github.com/Cristiandis/NTIX/releases/download/v2.1.0/ntix-rs-x86_64-pc-windows-gnu.zip",
+            "hash": "c5374843c762e0a9bc861199a709dacfde8dbc2b3e77d7aa44f1e148c0984c75"
         }
     },
     "bin": "ntix.exe",
